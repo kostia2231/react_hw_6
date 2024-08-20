@@ -1,0 +1,47 @@
+img {
+  border: 3px rgb(146, 225, 27) solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+}
+
+h2 {
+  color: rgb(70, 70, 70);
+}
+
+button {
+  border: none;
+  background-color: rgb(241, 241, 241);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgb(70, 70, 70);
+  font-size: 15px;
+  font-family: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.userCard {
+  background-color: #cbf4a4;
+  width: 400px;
+  padding: 50px 30px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 0.15rem rgb(164, 164, 164));
+}
+
+.userCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
